@@ -24,7 +24,7 @@ This project explores the relationships between per capita crime rate and 13 soc
 
 ## 🔗 View Report Online
 
-👉 [Click to View Project](https://sudheeshsreenilayam.github.io/dissect-with-sudheesh/R-Projects/Boston-Crime-Regression-R/boston_crime_regression.html)
+👉 [Click to View Project]([https://sudheeshsreenilayam.github.io/dissect-with-sudheesh/R-Projects/Boston-Crime-Regression-R/boston_crime_regression.html](https://sudheeshsreenilayam.github.io/R-Projects/Boston-Crime-Regression-R/boston_crime_regression.html))
 
 ---
 
