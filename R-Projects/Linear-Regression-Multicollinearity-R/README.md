@@ -44,7 +44,7 @@ This project explores how **multicollinearity** affects the interpretation of li
 ## 🔗 View Report Online
 
 You can view the full interactive report here:  
-👉 [Click to View the Project](https://sudheeshsreenilayam.github.io/dissect-with-sudheesh/R-Projects/Linear-Regression-Multicollinearity-R/linear_regression_analysis.html)
+👉 [Click to View Project](https://sudheeshsreenilayam.github.io/R-Projects/Linear-Regression-Multicollinearity-R/linear_regression_analysis.html)
 
 
 ---
@@ -57,3 +57,4 @@ You can view the full interactive report here:
 ---
 
 > 💬 Feedback or suggestions? Feel free to open an issue or fork the repo!
+
