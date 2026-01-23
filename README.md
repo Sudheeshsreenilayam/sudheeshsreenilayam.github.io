@@ -1,45 +1,41 @@
-# 🧠 Dissect With Sudheesh
+# Sudheesh Sreenilayam
+### Technical Program Manager (TPM) & Product Strategy | Fortune 1 Global Ops Leader
 
-Welcome to my analytics portfolio — a collection of hands-on data science and machine learning projects built using **R**, with more to come in **Python**, **SQL**, and **Tableau**. Each folder contains a focused case study with code, output, and key insights.
+📍 Chicago, IL | 📧 [sudhisreenilayam13@outlook.com](mailto:sudhisreenilayam13@outlook.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/ssudheesh)
 
 ---
 
-## 📁 Project Categories
+## 🚀 Portfolio Overview
+**Bridging the gap between Global Operational Leadership and Data Strategy.**
 
-### 🔬 R Projects
+Welcome to the code repository for my personal portfolio. This site demonstrates my "dual-threat" capability: managing large-scale operations (200+ FTEs) while executing complex data science projects in **R**, **Python**, and **SQL**.
+
+👉 **[View the Live Portfolio Website Here](https://sudheeshsreenilayam.github.io)**
+
+---
+
+## 📁 R Projects Archive
+*Detailed statistical analysis and machine learning reports.*
 
 #### 1. [Linear Regression with Multicollinearity](./R-Projects/Linear-Regression-Multicollinearity-R/)
-A simulation-based analysis demonstrating how multicollinearity affects regression coefficients and model interpretation.  
-🔗 [View report](https://sudheeshsreenilayam.github.io/dissect-with-sudheesh/R-Projects/Linear-Regression-Multicollinearity-R/linear_regression_analysis.html)
+A simulation-based analysis demonstrating how multicollinearity affects regression coefficients and model interpretation.
+🔗 [**View Report**](https://sudheeshsreenilayam.github.io/R-Projects/Linear-Regression-Multicollinearity-R/linear_regression_analysis.html)
 
 #### 2. [Tree-Based Sales Prediction](./R-Projects/Tree-Based-Sales-Prediction-R/)
-Used decision trees, pruning, bagging, and random forests to predict sales from product attributes and customer factors.  
-🔗 [View report](https://sudheeshsreenilayam.github.io/dissect-with-sudheesh/R-Projects/Tree-Based-Sales-Prediction-R/tree_model_sales.html)
+Used decision trees, pruning, bagging, and random forests to predict sales from product attributes and customer factors.
+🔗 [**View Report**](https://sudheeshsreenilayam.github.io/R-Projects/Tree-Based-Sales-Prediction-R/tree_model_sales.html)
 
 #### 3. [Boston Crime Regression Analysis](./R-Projects/Boston-Crime-Regression-R/)
-Explored how crime rate in Boston correlates with 13 socioeconomic variables using simple linear regression and visualizations.  
-🔗 [View report](https://sudheeshsreenilayam.github.io/dissect-with-sudheesh/R-Projects/Boston-Crime-Regression-R/boston_crime_regression.html)
+Explored how crime rate in Boston correlates with 13 socioeconomic variables using simple linear regression and visualizations.
+🔗 [**View Report**](https://sudheeshsreenilayam.github.io/R-Projects/Boston-Crime-Regression-R/boston_crime_regression.html)
 
 ---
 
-### 🐍 Python Projects
-Coming soon...
-
-### 🧠 SQL Projects
-Coming soon...
-
-### 📊 Tableau Dashboards
-Coming soon...
+## 🛠 Tech Stack
+* **Languages:** Python, R, SQL
+* **Tools:** Power BI, Tableau, Excel (VBA/Advanced)
+* **Methods:** Regression Analysis, Random Forest, K-Means Clustering, A/B Testing
 
 ---
 
-## 🧑‍💻 About Me
-
-**Sudheesh Sreenilayam**  
-🎓 Master’s in Business Analytics  
-📍 Based in Chicago | 🌎 Open to internships and collaboration  
-📎 [Connect on LinkedIn](https://www.linkedin.com/in/ssudheesh)
-
----
-
-> ⚡ *This portfolio is a live document — more projects are added as I grow and experiment across platforms and tools.*
+> ⚡ *This repository hosts the source code for [sudheeshsreenilayam.github.io](https://sudheeshsreenilayam.github.io).*
