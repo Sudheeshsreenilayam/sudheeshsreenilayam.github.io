@@ -3,15 +3,22 @@ layout: default
 title: Sudheesh Sreenilayam | TPM & Operations Leader
 ---
 
-<video autoplay loop muted playsinline width="100%" style="border-radius: 12px; margin-bottom: 1.5rem;">
-  <source src="./assets/sudheesh-banner.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<p align="left">
+  <a href="https://www.linkedin.com/in/ssudheesh" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect_with_Me-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="mailto:sudhisreenilayam13@outlook.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+  <a href="https://github.com/sudheeshsreenilayam">
+    <img src="https://img.shields.io/badge/GitHub-View_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+</p>
 
 # Sudheesh Sreenilayam
 ### Technical Program Manager (TPM) & Product Strategy | Fortune 1 Global Ops Leader
 
-📍 Chicago, IL | 📧 [sudhisreenilayam13@outlook.com](mailto:sudhisreenilayam13@outlook.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/ssudheesh)
+📍 Chicago, IL | 📧 [sudhisreenilayam13@outlook.com](mailto:sudhisreenilayam13@outlook.com)
 
 ---
 
@@ -61,54 +68,4 @@ Currently pursuing my **M.S. in Business Analytics** at Roosevelt University.
 *Dec 2021 – Aug 2023 • Associate Manager*
 
 * **Predictive Staffing:** Engineered a staffing model in Excel (Regression Analysis) that reduced overtime costs by 15%.
-* **Process Optimization:** Led a cross-functional task force utilizing statistical analysis to drive a 2.7% gain in throughput.
-
----
-
-## 📁 Featured Case Studies
-
-### 🛒 [Superstore Profitability & Strategic Recovery (Capstone)](./)
-**Focus:** Data Science & Business Strategy
-**Role:** Lead Analyst | **Tools:** Python (K-Means), Regression, Power BI
-* Developed a 90-day execution plan to reverse profit stagnation.
-* Used **K-Means Clustering** to identify "Bleeder" customer segments and **Regression Analysis** to prove discounting was the primary loss driver.
-* Identified a **$218k annual recovery** opportunity by restructuring pricing policies.
-
-### 🛡️ [Fake Job Posting Detection System (ML)](./)
-**Focus:** Machine Learning & NLP
-**Role:** ML Engineer | **Tools:** Python, Scikit-Learn, BeautifulSoup
-* Built an end-to-end fraud detection pipeline to address online security risks.
-* Managed the full lifecycle—from web scraping via **BeautifulSoup** to NLP feature engineering.
-* Achieved an **F1-Score of 0.84** using Support Vector Machines (SVM).
-
----
-
-## 🔬 Academic Research & R Archive
-*Technical deep-dives and statistical simulations demonstrating core analytics rigor.*
-
-#### 📘 [Linear Regression with Multicollinearity](./R-Projects/Linear-Regression-Multicollinearity-R/)
-A simulation-based analysis demonstrating how multicollinearity affects regression coefficients and model interpretation.
-🔗 [View report](https://sudheeshsreenilayam.github.io/dissect-with-sudheesh/R-Projects/Linear-Regression-Multicollinearity-R/linear_regression_analysis.html)
-
-#### 🌲 [Tree-Based Sales Prediction](./R-Projects/Tree-Based-Sales-Prediction-R/)
-Used decision trees, pruning, bagging, and random forests to predict sales from product attributes and customer factors.
-🔗 [View report](https://sudheeshsreenilayam.github.io/dissect-with-sudheesh/R-Projects/Tree-Based-Sales-Prediction-R/tree_model_sales.html)
-
-#### 🏙️ [Boston Crime Regression Analysis](./R-Projects/Boston-Crime-Regression-R/)
-Explored how crime rate in Boston correlates with 13 socioeconomic variables using simple linear regression and visualizations.
-🔗 [View report](https://sudheeshsreenilayam.github.io/dissect-with-sudheesh/R-Projects/Boston-Crime-Regression-R/boston_crime_regression.html)
-
----
-
-## 📬 Connect
-
-- 📍 Based in Chicago, IL
-- 💼 Open to Senior Analyst, TPM, and Product Strategy Roles.
-- 🔗 [LinkedIn](https://www.linkedin.com/in/ssudheesh)
-- 🌐 [GitHub Profile](https://github.com/Sudheeshsreenilayam)
-
----
-
-<p style="font-size: 0.9em; color: gray;">
-  Last updated: <script>document.write(new Date().toLocaleDateString());</script>
-</p>
+* **Process Optimization:** Led a cross-functional task force utilizing
