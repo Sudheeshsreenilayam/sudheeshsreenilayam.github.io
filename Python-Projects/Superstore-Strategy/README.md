@@ -1,51 +1,48 @@
----
-layout: default
-title: Superstore Profitability Strategy
----
-
 # 🛒 Superstore Profitability & Strategic Recovery
-**Role:** Lead Analyst | **Tools:** Python, Power BI, Scipy, Scikit-Learn
+
+<a href="./Superstore_Strategy_Deck.pdf" target="_blank">
+  <img src="https://img.shields.io/badge/View_Presentation_Deck-FF5733?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="View Deck">
+</a>
+
+This project is a forensic data analysis of a national retail chain's transaction data. The goal was to identify the root causes of profit stagnation and develop a 90-day execution plan to recover lost margins.
 
 ---
 
-## 📌 Executive Summary
-**The Challenge:** A national retail chain (Superstore) was experiencing profit stagnation despite consistent sales growth. Leadership needed a data-driven execution plan to reverse this trend within 90 days.
+## 🔍 Project Overview
 
-**The Solution:** I conducted a forensic data analysis using **Python** and **SQL** to isolate the root causes of profit bleed. By applying **K-Means Clustering** and **Multivariate Regression**, I proved that indiscriminate discounting—not shipping costs or competition—was the primary driver of loss.
-
-**The Impact:**
-* Identified **$218,000** in immediate annual recoverable profit.
-* Developed a tiered discounting strategy that eliminated negative-margin transactions.
-* Delivered a Power BI dashboard for regional managers to monitor "Bleeder" products in real-time.
+- Performed **K-Means Clustering** to segment customers by profitability.
+- Built a **Multivariate Regression** model to test hypotheses (Shipping vs. Discounting).
+- Identified a "Bleeder" customer segment causing 80% of negative margins.
+- Developed a tiered discounting strategy to recover **$218k/year**.
 
 ---
 
-## 🔍 The Analysis
+## 🧪 Key Findings
 
-### 1. Identifying the "Bleeders" (K-Means Clustering)
-I used unsupervised learning to segment customers based on `Sales`, `Profit`, and `Discount %`. The analysis revealed a specific cluster of "High Volume / Negative Profit" customers who were abusing specific discount policies.
-
-### 2. Proving the Root Cause (Regression Analysis)
-Stakeholders initially blamed high shipping costs for the losses. I built a regression model to test this hypothesis.
-* **Hypothesis:** Shipping Cost drives Profit Loss.
-* **Result:** Shipping Cost had a weak correlation ($R^2 < 0.2$).
-* **Discovery:** Discount % had a strong negative correlation ($R^2 > 0.6$) with profit, specifically when discounts exceeded 20% on Technology products.
+- **Root Cause:** Indiscriminate discounting (>20%) on "Technology" products was the primary driver of loss ($R^2 > 0.6$).
+- **Myth Busted:** Shipping costs were initially blamed but showed a weak correlation with profit loss ($R^2 < 0.2$).
+- **Recovery:** Eliminating "Same Day" shipping for standard-tier customers and capping tech discounts would immediately reverse the trend.
 
 ---
 
-## 🚀 The Execution Plan (90-Day Roadmap)
+## 🚀 Impact & Execution Plan
 
 | Phase | Action Item | Expected Impact |
 | :--- | :--- | :--- |
 | **Month 1** | **Stop the Bleeding:** Hard cap of 15% discount on "Technology" category. | Instant margin recovery of ~8%. |
-| **Month 2** | **Shipping Optimization:** Eliminate "Same Day" shipping option for standard-tier customers. | Reduce logistics overhead by 12%. |
-| **Month 3** | **Retargeting:** Shift marketing spend away from "Bleeder" cluster toward "Loyal/High-Margin" cluster. | Increase Customer Lifetime Value (CLV). |
+| **Month 2** | **Shipping Optimization:** Eliminate "Same Day" shipping for non-VIPs. | Reduce logistics overhead by 12%. |
+| **Month 3** | **Retargeting:** Shift marketing spend away from "Bleeder" cluster. | Increase Customer Lifetime Value (CLV). |
 
 ---
 
-### 💻 Technical Implementation
-* **Data Cleaning:** Handled missing values and outliers using Pandas.
-* **Statistical Testing:** Used OLS Regression (Statsmodels) to validate relationships.
-* **Visualization:** Created "Profit vs. Discount" heatmaps in Seaborn to visually persuade stakeholders.
+## 🧰 Tools Used
 
-[🔙 Back to Portfolio](https://sudheeshsreenilayam.github.io)
+- **Python:** Pandas (Cleaning), Scikit-Learn (Clustering), Statsmodels (Regression)
+- **Visualization:** Seaborn, Matplotlib
+- **BI:** Power BI (for dashboarding findings)
+
+---
+
+## 🧑‍💻 Author
+
+**Sudheesh Sreenilayam** 📎 [LinkedIn](https://www.linkedin.com/in/ssudheesh)
