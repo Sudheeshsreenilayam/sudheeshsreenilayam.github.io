@@ -687,12 +687,22 @@ nav ul {
   border: 1px solid rgba(99, 102, 241, 0.2);
 }
 
-.project-github-link {
+.project-github-link, .project-action-link {
   color: var(--text-muted);
+  display: inline-flex;
+  align-items: center;
+  transition: var(--transition);
 }
 
-.project-github-link:hover {
+.project-github-link:hover, .project-action-link:hover {
   color: var(--text-primary);
+  transform: translateY(-1px);
+}
+
+.project-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
 }
 
 .project-card-body {
@@ -873,6 +883,143 @@ nav ul {
 }
 
 /* ==========================================
+   EDUCATION & CERTIFICATIONS MINI
+   ========================================== */
+.education-certs-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2.5rem;
+}
+
+.sub-heading {
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.5rem;
+}
+
+.sub-heading svg {
+  color: var(--primary);
+}
+
+.edu-list-mini {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.edu-item-mini h5 {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.edu-item-mini p {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin-bottom: 0 !important;
+}
+
+.certs-list-mini {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.certs-list-mini li {
+  position: relative;
+  padding-left: 1.25rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.certs-list-mini li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.cert-authority {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  opacity: 0.8;
+}
+
+/* ==========================================
+   RECOMMENDATIONS SECTION
+   ========================================== */
+.recommendations-section {
+  padding: 8rem 0;
+  background: rgba(15, 23, 42, 0.2);
+}
+
+.recommendations-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.recommendation-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 2.5rem;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: var(--transition);
+  position: relative;
+}
+
+.recommendation-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--border-hover);
+  box-shadow: 0 10px 30px rgba(99, 102, 241, 0.1);
+}
+
+.rec-quote {
+  font-style: italic;
+  color: var(--text-link);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.rec-quote::before {
+  content: '"';
+  font-family: Georgia, serif;
+  font-size: 4rem;
+  position: absolute;
+  top: -2.5rem;
+  left: -1rem;
+  opacity: 0.1;
+  color: var(--primary);
+}
+
+.rec-author h4 {
+  font-size: 1.15rem;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.rec-author p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0 !important;
+}
+
+/* ==========================================
    CONTACT SECTION
    ========================================== */
 .contact-section {
@@ -1027,6 +1174,10 @@ footer {
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .recommendations-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1087,6 +1238,11 @@ footer {
   
   .projects-grid, .skills-grid {
     grid-template-columns: 1fr;
+  }
+  
+  .education-certs-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
   
   .timeline::after {
