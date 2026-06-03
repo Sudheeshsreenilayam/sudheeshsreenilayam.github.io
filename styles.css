@@ -538,7 +538,7 @@ nav ul {
 
 .about-grid {
   display: grid;
-  grid-template-columns: 0.8fr 1.4fr 0.8fr;
+  grid-template-columns: 1.1fr 1.5fr 1fr;
   gap: 3rem;
   align-items: center;
 }
@@ -552,13 +552,18 @@ nav ul {
 
 .profile-photo-frame {
   position: relative;
-  width: 250px;
-  height: 330px;
+  width: 320px;
+  height: 440px;
   border-radius: var(--radius-md);
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
   transition: transform 0.1s ease-out;
+}
+
+body.dark-theme .profile-photo-frame {
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.5);
 }
 
 .profile-photo {
