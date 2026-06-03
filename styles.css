@@ -22,6 +22,11 @@
   --text-muted: #475569;
   --text-link: #334155;
 
+  --contact-bg: linear-gradient(135deg, rgba(255, 255, 255, 0.75) 0%, rgba(241, 245, 249, 0.55) 100%);
+  --contact-note-bg: rgba(255, 255, 255, 0.6);
+  --method-icon-bg: rgba(79, 70, 229, 0.05);
+  --footer-bg: #f1f5f9;
+
   --nav-height: 80px;
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   --radius-sm: 8px;
@@ -46,6 +51,11 @@ body.dark-theme {
   --text-primary: #f8fafc;
   --text-muted: #94a3b8;
   --text-link: #cbd5e1;
+
+  --contact-bg: linear-gradient(135deg, rgba(15, 23, 42, 0.85) 0%, rgba(30, 41, 59, 0.45) 100%);
+  --contact-note-bg: rgba(7, 9, 19, 0.5);
+  --method-icon-bg: rgba(255, 255, 255, 0.03);
+  --footer-bg: #04060c;
 }
 
 * {
@@ -1097,7 +1107,7 @@ body.dark-theme .profile-photo-frame {
    ========================================== */
 .recommendations-section {
   padding: 8rem 0;
-  background: rgba(15, 23, 42, 0.1);
+  background: var(--primary-glow);
 }
 
 .recommendations-grid {
@@ -1107,8 +1117,8 @@ body.dark-theme .profile-photo-frame {
 }
 
 .recommendation-card {
-  background: rgba(22, 28, 45, 0.7);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
   border-radius: var(--radius-md);
   padding: 2.5rem;
   backdrop-filter: blur(12px);
@@ -1117,7 +1127,7 @@ body.dark-theme .profile-photo-frame {
   justify-content: space-between;
   transition: var(--transition);
   position: relative;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
 .recommendation-card:hover {
@@ -1128,7 +1138,7 @@ body.dark-theme .profile-photo-frame {
 
 .rec-quote {
   font-style: italic;
-  color: var(--text-link);
+  color: var(--text-muted);
   font-size: 1.05rem;
   line-height: 1.6;
   margin-bottom: 2rem;
@@ -1169,13 +1179,14 @@ body.dark-theme .profile-photo-frame {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
   gap: 4rem;
-  background: linear-gradient(135deg, rgba(15, 23, 42, 0.8) 0%, rgba(30, 41, 59, 0.4) 100%);
+  background: var(--contact-bg);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-lg);
   padding: 4rem;
   backdrop-filter: blur(20px);
   position: relative;
   overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
 }
 
 .contact-card-wrapper::after {
@@ -1216,7 +1227,7 @@ body.dark-theme .profile-photo-frame {
 .method-icon {
   width: 50px;
   height: 50px;
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--method-icon-bg);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-sm);
   display: flex;
@@ -1245,10 +1256,11 @@ body.dark-theme .profile-photo-frame {
 .method-val {
   font-size: 1.1rem;
   font-weight: 600;
+  color: var(--text-primary);
 }
 
 .contact-quick-note {
-  background: rgba(7, 9, 19, 0.5);
+  background: var(--contact-note-bg);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-md);
   padding: 2.5rem;
@@ -1274,7 +1286,7 @@ body.dark-theme .profile-photo-frame {
 footer {
   padding: 3rem 0;
   border-top: 1px solid var(--border-color);
-  background: #04060c;
+  background: var(--footer-bg);
   color: var(--text-muted);
   font-size: 0.95rem;
 }

@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // --- Interactive 3D Tilt Effect ---
-  const tiltElements = document.querySelectorAll('.project-card, .stat-card, .highlight-card, .recommendation-card, .profile-photo-frame');
+  const tiltElements = document.querySelectorAll('.project-card, .stat-card, .highlight-card, .recommendation-card, .profile-photo-frame, .contact-card-wrapper, .contact-quick-note');
 
   tiltElements.forEach(el => {
     el.addEventListener('mousemove', (e) => {
