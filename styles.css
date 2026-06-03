@@ -516,7 +516,7 @@ body.dark-theme .dropdown-item:hover {
 
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 2rem;
 }
 
@@ -704,7 +704,7 @@ body.dark-theme .profile-photo-frame {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 2.5rem;
 }
 
@@ -1418,4 +1418,22 @@ footer {
     gap: 1rem;
     text-align: center;
   }
+}
+
+.metric-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: var(--primary-glow);
+  color: var(--primary);
+  padding: 0.15rem 0.6rem;
+  border-radius: 50px;
+  border: 1px solid var(--border-color);
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+body.dark-theme .metric-badge {
+  color: #a5b4fc;
+  border-color: rgba(99, 102, 241, 0.3);
 }
