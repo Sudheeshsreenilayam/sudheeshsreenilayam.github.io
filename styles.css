@@ -309,7 +309,7 @@ body.dark-theme .moon-icon {
   color: var(--text-primary);
 }
 
-.logo-bracket {
+.logo-dot {
   color: var(--primary);
   font-weight: 800;
 }
@@ -368,14 +368,20 @@ nav ul {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: rgba(99, 102, 241, 0.1);
-  border: 1px solid rgba(99, 102, 241, 0.2);
-  color: #a5b4fc;
+  background: rgba(79, 70, 229, 0.08);
+  border: 1px solid rgba(79, 70, 229, 0.15);
+  color: var(--primary);
   padding: 0.5rem 1rem;
   border-radius: 50px;
   font-size: 0.85rem;
   font-weight: 600;
   margin-bottom: 2rem;
+}
+
+body.dark-theme .hero-badge {
+  background: rgba(99, 102, 241, 0.1);
+  border: 1px solid rgba(99, 102, 241, 0.2);
+  color: #a5b4fc;
 }
 
 .pulse-dot {
@@ -423,15 +429,20 @@ nav ul {
   top: 110%;
   left: 50%;
   transform: translateX(-50%) translateY(10px);
-  background: rgba(15, 23, 42, 0.95);
+  background: rgba(255, 255, 255, 0.98);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-sm);
   width: 240px;
   padding: 0.5rem;
   display: none;
   z-index: 10;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
+}
+
+body.dark-theme .dropdown-menu {
+  background: rgba(15, 23, 42, 0.95);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .resume-dropdown:hover .dropdown-menu {
@@ -451,10 +462,19 @@ nav ul {
   border-radius: 6px;
   font-size: 0.9rem;
   text-align: left;
-  color: var(--text-link);
+  color: var(--text-primary);
 }
 
 .dropdown-item:hover {
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--primary);
+}
+
+body.dark-theme .dropdown-item {
+  color: var(--text-link);
+}
+
+body.dark-theme .dropdown-item:hover {
   background: rgba(255, 255, 255, 0.05);
   color: var(--text-primary);
 }
