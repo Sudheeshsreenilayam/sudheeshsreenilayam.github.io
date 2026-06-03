@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="styles.css?v=1.1">
+  <link rel="stylesheet" href="styles.css?v=1.2">
 </head>
 <body>
 
@@ -41,6 +41,10 @@
         </ul>
       </nav>
       <div class="nav-cta">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+          <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
         <a href="#contact" class="btn btn-sm">Let's Connect</a>
       </div>
       <button class="mobile-nav-toggle" aria-label="Toggle navigation">
@@ -147,35 +151,21 @@
               I personally architect automated ETL pipelines and agentic AI workflows that reduced operational waste by $900k annually. Operating at the intersection of heavy people leadership and hands-on, AI-native data automation — I translate complex data environments into scalable, enterprise-level operations.
             </p>
             
-            <div class="education-certs-container">
-              <div class="edu-section-mini">
-                <h4 class="sub-heading"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg> Education</h4>
-                <div class="edu-list-mini">
-                  <div class="edu-item-mini">
-                    <h5>MS in Business Analytics (GPA: 3.97)</h5>
-                    <p>Roosevelt University, Chicago | 2024 – 2026</p>
-                  </div>
-                  <div class="edu-item-mini">
-                    <h5>BTech in Electronics & Communication</h5>
-                    <p>CUSAT, India</p>
-                  </div>
-                  <div class="edu-item-mini">
-                    <h5>Diploma in Electronics</h5>
-                    <p>Maharajas Technological Institute, India</p>
-                  </div>
+            <div class="education-container">
+              <h4 class="sub-heading"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg> Education</h4>
+              <div class="edu-list-mini">
+                <div class="edu-item-mini">
+                  <h5>MS in Business Analytics (GPA: 3.97)</h5>
+                  <p>Roosevelt University, Chicago | 2024 – 2026</p>
                 </div>
-              </div>
-
-              <div class="certs-section-mini">
-                <h4 class="sub-heading"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Certifications</h4>
-                <ul class="certs-list-mini">
-                  <li><strong>Lean Six Sigma Green Belt</strong> <span class="cert-authority">(Sutherland)</span></li>
-                  <li><strong>Advanced Microsoft Excel</strong> <span class="cert-authority">(365 Data Science)</span></li>
-                  <li><strong>What Is Business Analysis?</strong> <span class="cert-authority">(LinkedIn Learning)</span></li>
-                  <li><strong>Introduction to Data Science</strong> <span class="cert-authority">(365 Data Science)</span></li>
-                  <li><strong>Freedom With AI Masterclass</strong> <span class="cert-authority">(Freedom With AI)</span></li>
-                  <li><strong>English Proficiency Certificate</strong> <span class="cert-authority">(Duolingo)</span></li>
-                </ul>
+                <div class="edu-item-mini">
+                  <h5>BTech in Electronics & Communication</h5>
+                  <p>CUSAT, India</p>
+                </div>
+                <div class="edu-item-mini">
+                  <h5>Diploma in Electronics</h5>
+                  <p>Maharajas Technological Institute, India</p>
+                </div>
               </div>
             </div>
           </div>

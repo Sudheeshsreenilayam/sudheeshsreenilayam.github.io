@@ -281,4 +281,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (orb2) orb2.style.transform = `translate3d(0px, ${-scrollPos * 0.1}px, 0px)`;
     if (orb3) orb3.style.transform = `translate3d(0px, ${scrollPos * 0.08}px, 0px)`;
   });
+
+  // --- Theme Toggle (Default Light) ---
+  const themeToggle = document.getElementById('theme-toggle');
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-theme');
+    });
+  }
 });
