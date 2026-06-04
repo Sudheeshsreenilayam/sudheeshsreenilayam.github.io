@@ -1125,13 +1125,17 @@ body.dark-theme .profile-photo-frame {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: var(--transition);
+  transition: transform 0.1s ease-out, border-color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
   position: relative;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transform-style: preserve-3d;
+}
+
+.recommendation-card > * {
+  transform: translateZ(30px);
 }
 
 .recommendation-card:hover {
-  transform: translateY(-5px);
   border-color: rgba(99, 102, 241, 0.5);
   box-shadow: 0 15px 35px rgba(99, 102, 241, 0.15);
 }
@@ -1185,8 +1189,13 @@ body.dark-theme .profile-photo-frame {
   padding: 4rem;
   backdrop-filter: blur(20px);
   position: relative;
-  overflow: hidden;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+  transition: transform 0.1s ease-out, box-shadow 0.3s ease, border-color 0.3s ease;
+  transform-style: preserve-3d;
+}
+
+.contact-card-wrapper > * {
+  transform: translateZ(40px);
 }
 
 .contact-card-wrapper::after {
@@ -1267,6 +1276,12 @@ body.dark-theme .profile-photo-frame {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transition: transform 0.1s ease-out, box-shadow 0.3s ease, background 0.3s ease;
+  transform-style: preserve-3d;
+}
+
+.contact-quick-note > * {
+  transform: translateZ(20px);
 }
 
 .contact-quick-note h3 {
